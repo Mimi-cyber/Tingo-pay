@@ -875,13 +875,15 @@ body > div > nav.navbar-mobile > div.logodiv > div.logo{
         margin-top: 20px;
     }
     .section1-left p {
-        font-size: 16px;
+        font-size: 15px;
+        height: 53px;
     }
     .apply-button {
         width: 152px;
+        height: 53px;
     }
     .talk-button {
-        padding: 9px 13px;
+        padding: 12px 14px;
     }
     #union-img {
         bottom: 238px;
