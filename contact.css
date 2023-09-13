@@ -1,0 +1,716 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    padding: 16px 20px;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05); 
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 5px; 
+}
+.logo2-image{
+    width: 48px;
+    height: 14px;
+    flex-shrink: 0;
+}
+.logo2 {
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start;
+    gap: 5px;
+    margin-left: 44px;
+}
+.navbar-links {
+    list-style: none;
+    margin: 0;
+    padding: 0 50px;
+    display: flex;
+    gap: 20px;
+}
+.navbar-links li {  
+    font-family: "Moderat", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+.navbar-links li a {
+    color: #2C555B;
+    text-decoration: none;
+}
+.nigeria-logo {
+    display: flex;
+    align-items: center;
+}
+.nigeria-logo img {
+    width: 20px; 
+    height: 20px;
+    flex-shrink: 0;
+    border-radius: 50%; 
+    margin-right: 5px; 
+}
+.nigeria-logo span{
+    color: #2A285F;
+    font-family: "Moderat", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+.contact-section {
+    width: 100%;
+    height: 226px;
+    background: #2C555B;
+    position: relative;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/Intersect\ \(1\).png');
+    background-repeat: repeat;
+    opacity: 0.1;
+}
+.contact-content {
+    padding: 65px;
+}
+.contact-content h1 {
+    color: #FFF;
+    font-family: "Moderat", sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+}
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 55px;
+}
+.contact-details p {
+    color: #FFF;
+    font-family: "Moderat", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143%; 
+    letter-spacing: -0.27px;
+    margin: 5px 0;
+}
+.contact-form {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 48px 0;
+}
+.form-container {
+    width: 800px;
+    padding: 48px 80px;
+    border-radius: 30px;
+    border: 1px solid rgba(44, 85, 91, 0.75);
+    background: #FFF;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+}
+.form-container h2 {
+    color: #2C555B;
+    font-family: "Moderat", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin: 0;
+    text-align: left;
+}
+.form-container p {
+    color: #2C555B;
+    font-family: "Moderat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 25px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.form-input {
+    width: 100%;
+    height: 40.502px;
+    padding: 12.001px 9px 12.001px 18.001px;
+    border: none;
+    background: #EAECF0;
+    border-radius: 6px;
+    color: #999;
+    font-family: "Moderat", sans-serif;
+    font-size: 10.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+textarea {
+    width: 100%;
+    height: 123px;
+    border-radius: 6px;
+    background: #EAECF0;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+}
+.apply-button {
+    display: flex;
+    width: 100%;
+    height: 48px;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+    background:#F68A29;
+    color: #FFF;
+    font-family: "Moderat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 33.202px;
+    text-decoration: none;
+}
+#section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+}
+#section3-div{
+    border-radius: 16px;
+    background: #2C555B;
+    width: 1300px;
+    height: 393px;
+    text-align: center;
+    position: relative;
+}
+#section3-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 100%;
+}
+#section3-div img{
+    position: absolute;
+    top: -1%;
+    right: 64%;
+}
+#section3 h1{
+    color: #FFF;
+    text-align: center;
+    font-family: "Moderat", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 708px;
+}
+#section3 span{
+    color: #FFF;
+    text-align: center;
+    font-family: "Moderat", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    width: 641px;
+}
+#section3 button{
+    border: none;
+    border-radius: 4px;
+    background:#F68A29;  
+    width: 292px;
+    height: 48px;
+    padding: 10px 24px;
+    margin: 0 auto;
+    color: #FFF;
+    font-family: "Moderat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.202px; 
+    text-decoration: none;
+    cursor: pointer;
+}
+footer {
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 120px;
+    margin-top: 45px;
+    position: relative;
+}
+#footer-div {
+    width: 1441px;
+    height: 442px;
+    display: flex;
+    flex-direction: column; 
+    gap: 40px;
+    margin-bottom: -40px;
+}
+.info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+#column1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 17px;
+    width: 213px;
+}
+#column1 h5{
+    color: rgba(252, 252, 252, 0.70);
+    font-family: "Moderat", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.column h3{
+    color: #FFF;
+    font-family: "Moderat", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; 
+    margin-bottom: 15px;
+}
+.info li, p{
+    color: rgba(252, 252, 252, 0.70);
+    font-family: "Moderat", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143%; 
+    letter-spacing: -0.27px;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.footer-section1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+.footer-section2 a{
+    color: #FFFFFF;
+    padding: 15px;
+}
+.footer-section2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.footer-section2 p{
+    color: rgba(252, 252, 252, 0.70);
+    font-family: "Moderat", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143%;
+    letter-spacing: -0.21px;
+}
+hr {
+    width: 1300px;
+    height: 1px;
+    background: rgba(236, 236, 236, 0.25);
+    border: none;
+    position: absolute;
+    bottom: 100px;
+}
+.footer-section3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-section3 p{
+    color:#EEF1F4;
+    font-family: "Moderat", sans-serif;
+    font-size: 17.033px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.466px; 
+}
+.popup-form {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    width: 960px;
+    height: 763px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 12px 40px 0px rgba(142, 142, 142, 0.24);
+}
+
+.popup-close {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 48px;
+    top: 48px;
+    cursor: pointer;
+}
+.popup-content h2{
+    color: #30585E;
+    text-align: center;
+    font-family: "Moderat", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 77.76px;
+    margin-bottom: 16px;
+}
+.popup-content p{
+    color: #083C2F;
+    text-align: center;
+    font-family: "Moderat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+.popup-input {
+    display: flex;
+    width: 583px;
+    height: 40.502px;
+    padding: 12.001px 18.001px;
+    align-items: flex-start;
+    border-radius: 6px;
+    background: #EAECF0;
+    margin-bottom: 16px;
+    border: none;
+}
+.popup-button {
+    display: flex;
+    width: 583px;
+    height: 48px;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background:#F68A29;
+    color: #FFF;
+    font-family: "Moderat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.202px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+}
+.navbar-mobile{
+    display: none;
+    flex-direction: column;
+    width: 428px;
+    padding: 10px;
+    background: #FFF;
+}
+.navbar-mobile .logodiv{
+    display: flex;
+    width: 667px;
+    height: 78px;
+    padding: 10px;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid rgba(8, 60, 47, 0.10);
+    background: #FFF;
+}
+.navbar-mobile .logodiv img {
+    width: 92px;
+    height: 40.003px;
+}
+.navbar-mobile .dropdown-content {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    border: 1px solid #FAFAFA;
+    background:#FAFAFA;
+    width: 667px;
+    padding: 16px 20px;
+    margin-top: 23px;
+}
+.navbar-mobile .top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 670px;
+    height: 78px;
+    padding: 10px;
+    background: #FAFAFA;
+    border-bottom: 1px solid rgba(8, 60, 47, 0.10);
+}
+.navbar-mobile .close-button img {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    margin: 0;
+}
+.navbar-mobile .mobile-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 76px;
+    width: 100%;
+}
+.navbar-mobile .mobile-links li {
+    text-align: center;
+    font-family: "Moderat", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    list-style-type: none;
+}
+.navbar-mobile .mobile-links a {
+    color: #2C555B;
+    text-decoration: none;
+}
+.navbar-mobile .nigeria-logo {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.navbar-mobile .nigeria-logo img {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.navbar-mobile .nigeria-logo span {
+    color: #2A285F;
+    font-family: "Moderat", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+body > div > nav.navbar-mobile > div.logodiv > div.logo{
+    margin-left: 57px;
+}
+.top-nav img{
+    margin-left: 60px;
+}
+.navbar-mobile .hamburger-menu img {
+    width: 35px;
+    height: 35px;
+}
+
+@media screen and (max-width: 1024px){
+    #section3-div {
+        width: 870px;
+    }
+    #section3 h1{
+        font-size: 34px;
+        width: 552px;
+    }
+    #section3 span {
+        font-size: 15px;
+        width: 384px;
+    }
+    #section3 button{
+        width: 228px;
+    }
+    footer{
+        padding: 44px 70px;
+    }
+    #column1 h5{
+        font-size: 15px;
+    }
+    .info li, p {
+        font-size: 15px;
+    }
+    .column h3{
+        font-size: 18px;
+    }
+    .info {
+        gap: 46px;
+    }
+}
+@media screen and (max-width: 992px){
+    .contact-content h1 {
+        font-size: 57px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .navbar{
+        display: none; 
+    }
+    .navbar-mobile{
+        display: flex;
+    }
+    #section3-div {
+        width: 670px;
+    }
+    .form-container{
+        width: 640px;
+    }
+    .contact-details p{
+        font-size: 13px;
+    }
+    .contact-content h1 {
+        font-size: 42px;
+    }
+}
+@media screen and (max-width: 600px){
+    body > div > nav.navbar-mobile > div.logodiv > div.logo {
+       margin: 0;
+   }
+   .navbar-mobile .logo img {
+       width: 64px;
+       height: 30.003px;
+   }
+   .navbar-mobile .logodiv{
+       width: 370px;   
+   }
+   .navbar-mobile .hamburger-menu img {
+       width: 30px;
+       height: 30px;
+   }
+   .navbar-mobile .dropdown-content {
+       width: 405px;
+   }
+   .navbar-mobile .top-nav{
+       width: 410px;
+   }
+   .top-nav img{
+       margin-left: 0;
+   }
+   .navbar-mobile .close-button img {
+       margin-right: 32px;
+   }
+   .contact-section{
+       flex-direction: column;
+       height: auto;
+       align-items: flex-start;
+   }
+   .contact-details {
+       padding: 16px;
+   }
+   .contact-content {
+       padding: 14px;
+   }
+   #section3-div {
+    width: 354px;
+    height: 410px;
+   }
+   #section3 h1 {
+    font-size: 32px;
+    width: 318px;
+    }
+   #section3 button {
+    width: 292px;
+    }
+   #section3 span {
+    font-size: 16px;
+    width: 327px;
+    }
+    #section3-div img {
+    right: 29%;
+    }
+    .form-container {
+        width: 348px;
+        padding: 48px 18px;
+    }
+    .footer-section1{
+        grid-template-columns: 1fr;
+        gap: 43px;
+    }
+    .info{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4px;
+    }
+    footer {
+        padding: 40px 24px;
+      }
+    #footer-div {
+        width: 100%;
+        height: auto;
+        margin-bottom: 0;
+    }
+    #column1{
+        width: 341px;
+    }
+    .footer-section1{
+        gap: 110px;
+    }
+    .column h3{
+        margin-top: 12px;
+    }
+    .footer-section2{
+        margin-top: 0;
+    }
+    .footer-section2 a{
+        padding: 6px;
+    }
+    hr {
+        width: 325px;
+    }
+    .footer-section3{
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
